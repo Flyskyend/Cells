@@ -7,25 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC19FEC2200756DD00203FD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEC1200756DD00203FD7 /* AppDelegate.m */; };
-		FC19FEC5200756DD00203FD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEC4200756DD00203FD7 /* ViewController.m */; };
-		FC19FEC8200756DD00203FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC19FEC6200756DD00203FD7 /* Main.storyboard */; };
+		845BDFD4705113C916012E69 /* libPods-Cells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9EA9D78706175D4DFAD2 /* libPods-Cells.a */; };
+		FC155F3A205E9BFF004520C8 /* CLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC155F39205E9BFF004520C8 /* CLSearchViewController.m */; };
+		FC19FEC2200756DD00203FD7 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEC1200756DD00203FD7 /* CLAppDelegate.m */; };
 		FC19FECA200756DD00203FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC19FEC9200756DD00203FD7 /* Assets.xcassets */; };
 		FC19FECD200756DD00203FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC19FECB200756DD00203FD7 /* LaunchScreen.storyboard */; };
 		FC19FED0200756DD00203FD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FECF200756DD00203FD7 /* main.m */; };
+		FC19FED72007577200203FD7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FC19FED62007577100203FD7 /* Podfile */; };
+		FC19FEDB20084DAE00203FD7 /* CLCanister.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEDA20084DAE00203FD7 /* CLCanister.m */; };
+		FC19FEDE2008542500203FD7 /* CLBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEDD2008542500203FD7 /* CLBasket.m */; };
+		FC19FEE52008556F00203FD7 /* CLCanisterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEE42008556F00203FD7 /* CLCanisterListViewController.m */; };
+		FC19FEE9200858CF00203FD7 /* CLCanisterDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEE8200858CF00203FD7 /* CLCanisterDB.m */; };
+		FC19FEEF20085A0400203FD7 /* XCGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEEE20085A0400203FD7 /* XCGlobal.m */; };
+		FC19FEF320085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEF220085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.m */; };
+		FC19FEF620085B9700203FD7 /* CLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19FEF520085B9700203FD7 /* CLSession.m */; };
+		FC1BF05B206261B9006FB7F0 /* UIColor+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BF05A206261B9006FB7F0 /* UIColor+Image.m */; };
+		FC468053205CEC3D0030179A /* XCPopoverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FC468052205CEC3D0030179A /* XCPopoverMenu.m */; };
+		FC7918C620668E3900B9CDA8 /* CLSearchContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7918C520668E3900B9CDA8 /* CLSearchContentViewController.m */; };
+		FC7918CC20678FEA00B9CDA8 /* XCPickTimeRangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7918CB20678FEA00B9CDA8 /* XCPickTimeRangeCell.m */; };
+		FC7918CF2067A23700B9CDA8 /* XCPickTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7918CE2067A23700B9CDA8 /* XCPickTimeViewController.m */; };
+		FC7918D22067A9AD00B9CDA8 /* XCPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7918D02067A9AD00B9CDA8 /* XCPopupWindow.m */; };
+		FC9CA4042067D7A5009AB4F5 /* CLSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CA4032067D7A5009AB4F5 /* CLSearchResultViewController.m */; };
+		FC9CA4072067D90C009AB4F5 /* CLCellsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CA4062067D90C009AB4F5 /* CLCellsCell.m */; };
+		FCC6AD8E200860A500428424 /* CLTableVersionDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6AD8D200860A500428424 /* CLTableVersionDB.m */; };
+		FCC6AD9120086CBD00428424 /* NSDictionary+XCDBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6AD9020086CBD00428424 /* NSDictionary+XCDBQuery.m */; };
+		FCC6AD94200A4A2F00428424 /* NSDictionary+XCCamelCaseKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6AD92200A4A2E00428424 /* NSDictionary+XCCamelCaseKey.m */; };
+		FCC6AD97200A4CFE00428424 /* CLEditCanisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6AD96200A4CFE00428424 /* CLEditCanisterViewController.m */; };
+		FCC6AD9F200A510800428424 /* XCFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6AD9E200A510800428424 /* XCFont.m */; };
+		FCC6ADA2200A51C300428424 /* XCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADA1200A51C300428424 /* XCColor.m */; };
+		FCC6ADA7200A58F600428424 /* XCInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADA6200A58F600428424 /* XCInputCell.m */; };
+		FCC6ADAA200A590A00428424 /* CLCanisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADA9200A590A00428424 /* CLCanisterCell.m */; };
+		FCC6ADAD200B358000428424 /* CLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADAC200B358000428424 /* CLCell.m */; };
+		FCC6ADB0200B3B4300428424 /* CLCanisterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADAF200B3B4300428424 /* CLCanisterDetailViewController.m */; };
+		FCC6ADB6200B3C4500428424 /* CLBasketDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADB5200B3C4500428424 /* CLBasketDB.m */; };
+		FCC6ADB9200B417B00428424 /* CLCellDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADB8200B417B00428424 /* CLCellDB.m */; };
+		FCC6ADBC200B496C00428424 /* CLEditBasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADBB200B496C00428424 /* CLEditBasketViewController.m */; };
+		FCC6ADBF200B731C00428424 /* CLBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADBE200B731C00428424 /* CLBox.m */; };
+		FCC6ADC2200B73DC00428424 /* CLBoxDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADC1200B73DC00428424 /* CLBoxDB.m */; };
+		FCC6ADC5200B7AE400428424 /* CLBasketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADC4200B7AE400428424 /* CLBasketCell.m */; };
+		FCC6ADC8200B7C5F00428424 /* CLBoxListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADC7200B7C5F00428424 /* CLBoxListCell.m */; };
+		FCC6ADCB200B7EB400428424 /* CLRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADCA200B7EB400428424 /* CLRedirect.m */; };
+		FCC6ADCE200B8CEB00428424 /* CLEditBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADCD200B8CEB00428424 /* CLEditBoxViewController.m */; };
+		FCC6ADD1200B92F200428424 /* CLBoxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADD0200B92F200428424 /* CLBoxDetailViewController.m */; };
+		FCC6ADD7200B943B00428424 /* CLBoxDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADD6200B943B00428424 /* CLBoxDetailCell.m */; };
+		FCC6ADDA200C8A0400428424 /* CLEditCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6ADD9200C8A0400428424 /* CLEditCellViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19ABFF78E42A61D053221444 /* Pods-Cells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cells/Pods-Cells.debug.xcconfig"; sourceTree = "<group>"; };
+		32AB4E3B0612CA91C85D51E9 /* Pods-Cells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cells.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cells/Pods-Cells.release.xcconfig"; sourceTree = "<group>"; };
+		C29E9EA9D78706175D4DFAD2 /* libPods-Cells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC155F38205E9BFF004520C8 /* CLSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSearchViewController.h; sourceTree = "<group>"; };
+		FC155F39205E9BFF004520C8 /* CLSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSearchViewController.m; sourceTree = "<group>"; };
 		FC19FEBD200756DD00203FD7 /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC19FEC0200756DD00203FD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FC19FEC1200756DD00203FD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC19FEC3200756DD00203FD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC19FEC4200756DD00203FD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FC19FEC7200756DD00203FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC19FEC0200756DD00203FD7 /* CLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		FC19FEC1200756DD00203FD7 /* CLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
 		FC19FEC9200756DD00203FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC19FECC200756DD00203FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC19FECE200756DD00203FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC19FECF200756DD00203FD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC19FED62007577100203FD7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC19FED920084DAE00203FD7 /* CLCanister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCanister.h; sourceTree = "<group>"; };
+		FC19FEDA20084DAE00203FD7 /* CLCanister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCanister.m; sourceTree = "<group>"; };
+		FC19FEDC2008542500203FD7 /* CLBasket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBasket.h; sourceTree = "<group>"; };
+		FC19FEDD2008542500203FD7 /* CLBasket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBasket.m; sourceTree = "<group>"; };
+		FC19FEE32008556F00203FD7 /* CLCanisterListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCanisterListViewController.h; sourceTree = "<group>"; };
+		FC19FEE42008556F00203FD7 /* CLCanisterListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCanisterListViewController.m; sourceTree = "<group>"; };
+		FC19FEE7200858CF00203FD7 /* CLCanisterDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCanisterDB.h; sourceTree = "<group>"; };
+		FC19FEE8200858CF00203FD7 /* CLCanisterDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCanisterDB.m; sourceTree = "<group>"; };
+		FC19FEED20085A0400203FD7 /* XCGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCGlobal.h; sourceTree = "<group>"; };
+		FC19FEEE20085A0400203FD7 /* XCGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCGlobal.m; sourceTree = "<group>"; };
+		FC19FEF120085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XCDateStringMutualConvertion.h"; sourceTree = "<group>"; };
+		FC19FEF220085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XCDateStringMutualConvertion.m"; sourceTree = "<group>"; };
+		FC19FEF420085B9700203FD7 /* CLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSession.h; sourceTree = "<group>"; };
+		FC19FEF520085B9700203FD7 /* CLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSession.m; sourceTree = "<group>"; };
+		FC19FEF720085BB100203FD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FC1BF059206261B9006FB7F0 /* UIColor+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Image.h"; sourceTree = "<group>"; };
+		FC1BF05A206261B9006FB7F0 /* UIColor+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Image.m"; sourceTree = "<group>"; };
+		FC468051205CEC3D0030179A /* XCPopoverMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPopoverMenu.h; sourceTree = "<group>"; };
+		FC468052205CEC3D0030179A /* XCPopoverMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPopoverMenu.m; sourceTree = "<group>"; };
+		FC7918C420668E3900B9CDA8 /* CLSearchContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSearchContentViewController.h; sourceTree = "<group>"; };
+		FC7918C520668E3900B9CDA8 /* CLSearchContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSearchContentViewController.m; sourceTree = "<group>"; };
+		FC7918CA20678FEA00B9CDA8 /* XCPickTimeRangeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPickTimeRangeCell.h; sourceTree = "<group>"; };
+		FC7918CB20678FEA00B9CDA8 /* XCPickTimeRangeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPickTimeRangeCell.m; sourceTree = "<group>"; };
+		FC7918CD2067A23700B9CDA8 /* XCPickTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPickTimeViewController.h; sourceTree = "<group>"; };
+		FC7918CE2067A23700B9CDA8 /* XCPickTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPickTimeViewController.m; sourceTree = "<group>"; };
+		FC7918D02067A9AD00B9CDA8 /* XCPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPopupWindow.m; sourceTree = "<group>"; };
+		FC7918D12067A9AD00B9CDA8 /* XCPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPopupWindow.h; sourceTree = "<group>"; };
+		FC9CA4022067D7A5009AB4F5 /* CLSearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSearchResultViewController.h; sourceTree = "<group>"; };
+		FC9CA4032067D7A5009AB4F5 /* CLSearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSearchResultViewController.m; sourceTree = "<group>"; };
+		FC9CA4052067D90C009AB4F5 /* CLCellsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCellsCell.h; sourceTree = "<group>"; };
+		FC9CA4062067D90C009AB4F5 /* CLCellsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCellsCell.m; sourceTree = "<group>"; };
+		FCC6AD8C200860A500428424 /* CLTableVersionDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTableVersionDB.h; sourceTree = "<group>"; };
+		FCC6AD8D200860A500428424 /* CLTableVersionDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTableVersionDB.m; sourceTree = "<group>"; };
+		FCC6AD8F20086CBD00428424 /* NSDictionary+XCDBQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XCDBQuery.h"; sourceTree = "<group>"; };
+		FCC6AD9020086CBD00428424 /* NSDictionary+XCDBQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XCDBQuery.m"; sourceTree = "<group>"; };
+		FCC6AD92200A4A2E00428424 /* NSDictionary+XCCamelCaseKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XCCamelCaseKey.m"; sourceTree = "<group>"; };
+		FCC6AD93200A4A2E00428424 /* NSDictionary+XCCamelCaseKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XCCamelCaseKey.h"; sourceTree = "<group>"; };
+		FCC6AD95200A4CFE00428424 /* CLEditCanisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLEditCanisterViewController.h; sourceTree = "<group>"; };
+		FCC6AD96200A4CFE00428424 /* CLEditCanisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLEditCanisterViewController.m; sourceTree = "<group>"; };
+		FCC6AD9D200A510800428424 /* XCFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFont.h; sourceTree = "<group>"; };
+		FCC6AD9E200A510800428424 /* XCFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCFont.m; sourceTree = "<group>"; };
+		FCC6ADA0200A51C300428424 /* XCColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCColor.h; sourceTree = "<group>"; };
+		FCC6ADA1200A51C300428424 /* XCColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCColor.m; sourceTree = "<group>"; };
+		FCC6ADA5200A58F600428424 /* XCInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCInputCell.h; sourceTree = "<group>"; };
+		FCC6ADA6200A58F600428424 /* XCInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCInputCell.m; sourceTree = "<group>"; };
+		FCC6ADA8200A590A00428424 /* CLCanisterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCanisterCell.h; sourceTree = "<group>"; };
+		FCC6ADA9200A590A00428424 /* CLCanisterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCanisterCell.m; sourceTree = "<group>"; };
+		FCC6ADAB200B358000428424 /* CLCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCell.h; sourceTree = "<group>"; };
+		FCC6ADAC200B358000428424 /* CLCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCell.m; sourceTree = "<group>"; };
+		FCC6ADAE200B3B4300428424 /* CLCanisterDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCanisterDetailViewController.h; sourceTree = "<group>"; };
+		FCC6ADAF200B3B4300428424 /* CLCanisterDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCanisterDetailViewController.m; sourceTree = "<group>"; };
+		FCC6ADB4200B3C4500428424 /* CLBasketDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBasketDB.h; sourceTree = "<group>"; };
+		FCC6ADB5200B3C4500428424 /* CLBasketDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBasketDB.m; sourceTree = "<group>"; };
+		FCC6ADB7200B417B00428424 /* CLCellDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCellDB.h; sourceTree = "<group>"; };
+		FCC6ADB8200B417B00428424 /* CLCellDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCellDB.m; sourceTree = "<group>"; };
+		FCC6ADBA200B496C00428424 /* CLEditBasketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLEditBasketViewController.h; sourceTree = "<group>"; };
+		FCC6ADBB200B496C00428424 /* CLEditBasketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLEditBasketViewController.m; sourceTree = "<group>"; };
+		FCC6ADBD200B731C00428424 /* CLBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBox.h; sourceTree = "<group>"; };
+		FCC6ADBE200B731C00428424 /* CLBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBox.m; sourceTree = "<group>"; };
+		FCC6ADC0200B73DC00428424 /* CLBoxDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBoxDB.h; sourceTree = "<group>"; };
+		FCC6ADC1200B73DC00428424 /* CLBoxDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBoxDB.m; sourceTree = "<group>"; };
+		FCC6ADC3200B7AE400428424 /* CLBasketCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBasketCell.h; sourceTree = "<group>"; };
+		FCC6ADC4200B7AE400428424 /* CLBasketCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBasketCell.m; sourceTree = "<group>"; };
+		FCC6ADC6200B7C5F00428424 /* CLBoxListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBoxListCell.h; sourceTree = "<group>"; };
+		FCC6ADC7200B7C5F00428424 /* CLBoxListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBoxListCell.m; sourceTree = "<group>"; };
+		FCC6ADC9200B7EB400428424 /* CLRedirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLRedirect.h; sourceTree = "<group>"; };
+		FCC6ADCA200B7EB400428424 /* CLRedirect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLRedirect.m; sourceTree = "<group>"; };
+		FCC6ADCC200B8CEB00428424 /* CLEditBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLEditBoxViewController.h; sourceTree = "<group>"; };
+		FCC6ADCD200B8CEB00428424 /* CLEditBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLEditBoxViewController.m; sourceTree = "<group>"; };
+		FCC6ADCF200B92F200428424 /* CLBoxDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBoxDetailViewController.h; sourceTree = "<group>"; };
+		FCC6ADD0200B92F200428424 /* CLBoxDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBoxDetailViewController.m; sourceTree = "<group>"; };
+		FCC6ADD5200B943B00428424 /* CLBoxDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBoxDetailCell.h; sourceTree = "<group>"; };
+		FCC6ADD6200B943B00428424 /* CLBoxDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBoxDetailCell.m; sourceTree = "<group>"; };
+		FCC6ADD8200C8A0400428424 /* CLEditCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLEditCellViewController.h; sourceTree = "<group>"; };
+		FCC6ADD9200C8A0400428424 /* CLEditCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLEditCellViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +149,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845BDFD4705113C916012E69 /* libPods-Cells.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771D281CB788AA5B7F4C78D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19ABFF78E42A61D053221444 /* Pods-Cells.debug.xcconfig */,
+				32AB4E3B0612CA91C85D51E9 /* Pods-Cells.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2BE5E2428C95BA1FB1F666C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9EA9D78706175D4DFAD2 /* libPods-Cells.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC19FEB4200756DD00203FD7 = {
 			isa = PBXGroup;
 			children = (
 				FC19FEBF200756DD00203FD7 /* Cells */,
+				FC19FED62007577100203FD7 /* Podfile */,
 				FC19FEBE200756DD00203FD7 /* Products */,
+				771D281CB788AA5B7F4C78D5 /* Pods */,
+				E2BE5E2428C95BA1FB1F666C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +195,187 @@
 		FC19FEBF200756DD00203FD7 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				FC19FEC0200756DD00203FD7 /* AppDelegate.h */,
-				FC19FEC1200756DD00203FD7 /* AppDelegate.m */,
-				FC19FEC3200756DD00203FD7 /* ViewController.h */,
-				FC19FEC4200756DD00203FD7 /* ViewController.m */,
-				FC19FEC6200756DD00203FD7 /* Main.storyboard */,
+				FCC6AD98200A500800428424 /* views */,
+				FC19FEF020085A9E00203FD7 /* categories */,
+				FC19FEEA200859F200203FD7 /* common */,
+				FC19FEE6200858C000203FD7 /* db */,
+				FC19FEE22008555800203FD7 /* viewcontrollers */,
+				FC19FED820084D1800203FD7 /* dao */,
+				FC19FEC0200756DD00203FD7 /* CLAppDelegate.h */,
+				FC19FEC1200756DD00203FD7 /* CLAppDelegate.m */,
 				FC19FEC9200756DD00203FD7 /* Assets.xcassets */,
 				FC19FECB200756DD00203FD7 /* LaunchScreen.storyboard */,
 				FC19FECE200756DD00203FD7 /* Info.plist */,
 				FC19FECF200756DD00203FD7 /* main.m */,
+				FC19FEF720085BB100203FD7 /* PrefixHeader.pch */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		FC19FED820084D1800203FD7 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				FC19FED920084DAE00203FD7 /* CLCanister.h */,
+				FC19FEDA20084DAE00203FD7 /* CLCanister.m */,
+				FC19FEDC2008542500203FD7 /* CLBasket.h */,
+				FC19FEDD2008542500203FD7 /* CLBasket.m */,
+				FCC6ADBD200B731C00428424 /* CLBox.h */,
+				FCC6ADBE200B731C00428424 /* CLBox.m */,
+				FCC6ADAB200B358000428424 /* CLCell.h */,
+				FCC6ADAC200B358000428424 /* CLCell.m */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		FC19FEE22008555800203FD7 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				FC19FEE32008556F00203FD7 /* CLCanisterListViewController.h */,
+				FC19FEE42008556F00203FD7 /* CLCanisterListViewController.m */,
+				FCC6AD95200A4CFE00428424 /* CLEditCanisterViewController.h */,
+				FCC6AD96200A4CFE00428424 /* CLEditCanisterViewController.m */,
+				FCC6ADAE200B3B4300428424 /* CLCanisterDetailViewController.h */,
+				FCC6ADAF200B3B4300428424 /* CLCanisterDetailViewController.m */,
+				FCC6ADBA200B496C00428424 /* CLEditBasketViewController.h */,
+				FCC6ADBB200B496C00428424 /* CLEditBasketViewController.m */,
+				FCC6ADCC200B8CEB00428424 /* CLEditBoxViewController.h */,
+				FCC6ADCD200B8CEB00428424 /* CLEditBoxViewController.m */,
+				FCC6ADCF200B92F200428424 /* CLBoxDetailViewController.h */,
+				FCC6ADD0200B92F200428424 /* CLBoxDetailViewController.m */,
+				FCC6ADD8200C8A0400428424 /* CLEditCellViewController.h */,
+				FCC6ADD9200C8A0400428424 /* CLEditCellViewController.m */,
+				FC155F38205E9BFF004520C8 /* CLSearchViewController.h */,
+				FC155F39205E9BFF004520C8 /* CLSearchViewController.m */,
+				FC7918C420668E3900B9CDA8 /* CLSearchContentViewController.h */,
+				FC7918C520668E3900B9CDA8 /* CLSearchContentViewController.m */,
+				FC9CA4022067D7A5009AB4F5 /* CLSearchResultViewController.h */,
+				FC9CA4032067D7A5009AB4F5 /* CLSearchResultViewController.m */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		FC19FEE6200858C000203FD7 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6AD8C200860A500428424 /* CLTableVersionDB.h */,
+				FCC6AD8D200860A500428424 /* CLTableVersionDB.m */,
+				FC19FEE7200858CF00203FD7 /* CLCanisterDB.h */,
+				FC19FEE8200858CF00203FD7 /* CLCanisterDB.m */,
+				FCC6ADB4200B3C4500428424 /* CLBasketDB.h */,
+				FCC6ADB5200B3C4500428424 /* CLBasketDB.m */,
+				FCC6ADC0200B73DC00428424 /* CLBoxDB.h */,
+				FCC6ADC1200B73DC00428424 /* CLBoxDB.m */,
+				FCC6ADB7200B417B00428424 /* CLCellDB.h */,
+				FCC6ADB8200B417B00428424 /* CLCellDB.m */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		FC19FEEA200859F200203FD7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6ADA3200A58F600428424 /* views */,
+				FC19FEEB200859F200203FD7 /* biz */,
+				FC19FEEC200859F200203FD7 /* tools */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		FC19FEEB200859F200203FD7 /* biz */ = {
+			isa = PBXGroup;
+			children = (
+				FC19FEF420085B9700203FD7 /* CLSession.h */,
+				FC19FEF520085B9700203FD7 /* CLSession.m */,
+			);
+			path = biz;
+			sourceTree = "<group>";
+		};
+		FC19FEEC200859F200203FD7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				FC19FEED20085A0400203FD7 /* XCGlobal.h */,
+				FC19FEEE20085A0400203FD7 /* XCGlobal.m */,
+				FCC6AD9D200A510800428424 /* XCFont.h */,
+				FCC6AD9E200A510800428424 /* XCFont.m */,
+				FCC6ADA0200A51C300428424 /* XCColor.h */,
+				FCC6ADA1200A51C300428424 /* XCColor.m */,
+				FCC6ADC9200B7EB400428424 /* CLRedirect.h */,
+				FCC6ADCA200B7EB400428424 /* CLRedirect.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		FC19FEF020085A9E00203FD7 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6AD93200A4A2E00428424 /* NSDictionary+XCCamelCaseKey.h */,
+				FCC6AD92200A4A2E00428424 /* NSDictionary+XCCamelCaseKey.m */,
+				FC19FEF120085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.h */,
+				FC19FEF220085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.m */,
+				FCC6AD8F20086CBD00428424 /* NSDictionary+XCDBQuery.h */,
+				FCC6AD9020086CBD00428424 /* NSDictionary+XCDBQuery.m */,
+				FC1BF059206261B9006FB7F0 /* UIColor+Image.h */,
+				FC1BF05A206261B9006FB7F0 /* UIColor+Image.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		FC46804D205CEB0E0030179A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FC7918D12067A9AD00B9CDA8 /* XCPopupWindow.h */,
+				FC7918D02067A9AD00B9CDA8 /* XCPopupWindow.m */,
+				FC468051205CEC3D0030179A /* XCPopoverMenu.h */,
+				FC468052205CEC3D0030179A /* XCPopoverMenu.m */,
+				FC7918CD2067A23700B9CDA8 /* XCPickTimeViewController.h */,
+				FC7918CE2067A23700B9CDA8 /* XCPickTimeViewController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FCC6AD98200A500800428424 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6AD99200A500800428424 /* cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FCC6AD99200A500800428424 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6ADA8200A590A00428424 /* CLCanisterCell.h */,
+				FCC6ADA9200A590A00428424 /* CLCanisterCell.m */,
+				FCC6ADC3200B7AE400428424 /* CLBasketCell.h */,
+				FCC6ADC4200B7AE400428424 /* CLBasketCell.m */,
+				FCC6ADC6200B7C5F00428424 /* CLBoxListCell.h */,
+				FCC6ADC7200B7C5F00428424 /* CLBoxListCell.m */,
+				FCC6ADD5200B943B00428424 /* CLBoxDetailCell.h */,
+				FCC6ADD6200B943B00428424 /* CLBoxDetailCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FCC6ADA3200A58F600428424 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FC46804D205CEB0E0030179A /* views */,
+				FCC6ADA4200A58F600428424 /* cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FCC6ADA4200A58F600428424 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6ADA5200A58F600428424 /* XCInputCell.h */,
+				FCC6ADA6200A58F600428424 /* XCInputCell.m */,
+				FC7918CA20678FEA00B9CDA8 /* XCPickTimeRangeCell.h */,
+				FC7918CB20678FEA00B9CDA8 /* XCPickTimeRangeCell.m */,
+				FC9CA4052067D90C009AB4F5 /* CLCellsCell.h */,
+				FC9CA4062067D90C009AB4F5 /* CLCellsCell.m */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +385,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC19FED3200756DD00203FD7 /* Build configuration list for PBXNativeTarget "Cells" */;
 			buildPhases = (
+				FF7D9CBF0AF171453D5494D7 /* [CP] Check Pods Manifest.lock */,
 				FC19FEB9200756DD00203FD7 /* Sources */,
 				FC19FEBA200756DD00203FD7 /* Frameworks */,
 				FC19FEBB200756DD00203FD7 /* Resources */,
+				B2D1F011EFD74A3FA9C0903A /* [CP] Embed Pods Frameworks */,
+				9A88F388180B43E9B9ADF5E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,36 +439,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC19FED72007577200203FD7 /* Podfile in Resources */,
 				FC19FECD200756DD00203FD7 /* LaunchScreen.storyboard in Resources */,
 				FC19FECA200756DD00203FD7 /* Assets.xcassets in Resources */,
-				FC19FEC8200756DD00203FD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A88F388180B43E9B9ADF5E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cells/Pods-Cells-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D1F011EFD74A3FA9C0903A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cells/Pods-Cells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7D9CBF0AF171453D5494D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC19FEB9200756DD00203FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC19FEC5200756DD00203FD7 /* ViewController.m in Sources */,
+				FC7918C620668E3900B9CDA8 /* CLSearchContentViewController.m in Sources */,
+				FC19FEE52008556F00203FD7 /* CLCanisterListViewController.m in Sources */,
+				FC19FEEF20085A0400203FD7 /* XCGlobal.m in Sources */,
+				FCC6ADC2200B73DC00428424 /* CLBoxDB.m in Sources */,
+				FCC6ADB9200B417B00428424 /* CLCellDB.m in Sources */,
+				FCC6AD8E200860A500428424 /* CLTableVersionDB.m in Sources */,
+				FC468053205CEC3D0030179A /* XCPopoverMenu.m in Sources */,
+				FCC6ADBF200B731C00428424 /* CLBox.m in Sources */,
+				FCC6ADA7200A58F600428424 /* XCInputCell.m in Sources */,
+				FC19FEF620085B9700203FD7 /* CLSession.m in Sources */,
+				FCC6ADC8200B7C5F00428424 /* CLBoxListCell.m in Sources */,
+				FC7918D22067A9AD00B9CDA8 /* XCPopupWindow.m in Sources */,
+				FCC6ADD7200B943B00428424 /* CLBoxDetailCell.m in Sources */,
+				FCC6AD9F200A510800428424 /* XCFont.m in Sources */,
+				FC19FEE9200858CF00203FD7 /* CLCanisterDB.m in Sources */,
+				FCC6ADCB200B7EB400428424 /* CLRedirect.m in Sources */,
+				FC7918CF2067A23700B9CDA8 /* XCPickTimeViewController.m in Sources */,
+				FC19FEF320085B3300203FD7 /* NSDate+XCDateStringMutualConvertion.m in Sources */,
+				FCC6ADBC200B496C00428424 /* CLEditBasketViewController.m in Sources */,
+				FCC6ADC5200B7AE400428424 /* CLBasketCell.m in Sources */,
+				FCC6ADAA200A590A00428424 /* CLCanisterCell.m in Sources */,
 				FC19FED0200756DD00203FD7 /* main.m in Sources */,
-				FC19FEC2200756DD00203FD7 /* AppDelegate.m in Sources */,
+				FC155F3A205E9BFF004520C8 /* CLSearchViewController.m in Sources */,
+				FCC6ADD1200B92F200428424 /* CLBoxDetailViewController.m in Sources */,
+				FCC6ADCE200B8CEB00428424 /* CLEditBoxViewController.m in Sources */,
+				FCC6ADA2200A51C300428424 /* XCColor.m in Sources */,
+				FCC6ADB6200B3C4500428424 /* CLBasketDB.m in Sources */,
+				FCC6AD94200A4A2F00428424 /* NSDictionary+XCCamelCaseKey.m in Sources */,
+				FC1BF05B206261B9006FB7F0 /* UIColor+Image.m in Sources */,
+				FCC6AD9120086CBD00428424 /* NSDictionary+XCDBQuery.m in Sources */,
+				FCC6ADB0200B3B4300428424 /* CLCanisterDetailViewController.m in Sources */,
+				FC9CA4042067D7A5009AB4F5 /* CLSearchResultViewController.m in Sources */,
+				FC19FEC2200756DD00203FD7 /* CLAppDelegate.m in Sources */,
+				FC19FEDE2008542500203FD7 /* CLBasket.m in Sources */,
+				FC9CA4072067D90C009AB4F5 /* CLCellsCell.m in Sources */,
+				FCC6AD97200A4CFE00428424 /* CLEditCanisterViewController.m in Sources */,
+				FCC6ADDA200C8A0400428424 /* CLEditCellViewController.m in Sources */,
+				FCC6ADAD200B358000428424 /* CLCell.m in Sources */,
+				FC7918CC20678FEA00B9CDA8 /* XCPickTimeRangeCell.m in Sources */,
+				FC19FEDB20084DAE00203FD7 /* CLCanister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC19FEC6200756DD00203FD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC19FEC7200756DD00203FD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC19FECB200756DD00203FD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,13 +663,16 @@
 		};
 		FC19FED4200756DD00203FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19ABFF78E42A61D053221444 /* Pods-Cells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GJFEF6QJX6;
+				DEVELOPMENT_TEAM = F46FD595X6;
+				GCC_PREFIX_HEADER = Cells/PrefixHeader.pch;
 				INFOPLIST_FILE = Cells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wxc.Cells;
+				MARKETING_VERSION = 0.21;
+				PRODUCT_BUNDLE_IDENTIFIER = Flyskyend.Cells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +680,16 @@
 		};
 		FC19FED5200756DD00203FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AB4E3B0612CA91C85D51E9 /* Pods-Cells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GJFEF6QJX6;
+				DEVELOPMENT_TEAM = F46FD595X6;
+				GCC_PREFIX_HEADER = Cells/PrefixHeader.pch;
 				INFOPLIST_FILE = Cells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wxc.Cells;
+				MARKETING_VERSION = 0.21;
+				PRODUCT_BUNDLE_IDENTIFIER = Flyskyend.Cells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
